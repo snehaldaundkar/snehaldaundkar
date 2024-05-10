@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.VerifyRegistrationTestCases">
+        <methods>
+          <include name="VerifyRegistrationWithValidData"/>
+          <include name="VerifyRegistrationWithINValidData"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- testcases.VerifyRegistrationTestCases -->
+      <class name="testcases.VerifyLoginTestcases">
+        <methods>
+          <include name="VerifyLogInWithINValidData"/>
+          <include name="VerifyLogInWithValidData"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- testcases.VerifyLoginTestcases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
